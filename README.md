@@ -3,13 +3,13 @@
 Informe del UML
 
 User:
-	-   Guarda el nombre del usuario registrado.
+    -   Guarda el nombre del usuario registrado.
     -   Permite crear/encontrar una partida.
 
 Ship:
-    -	Para crear un ship se decide una coordenada inicial, y la dirección a la que se va a extender el barco (la idea es que no pueda superar los bordes del tablero ni se superponga con otros objetos).
+    -	Para crear un ship se decide una coordenada inicial, y la dirección a la que se va a extender el barco (la idea es que no pueda superar los bordes del tablero ni se 	     superponga con otros objetos).
     -	Van a existir 3 tipos de barcos, con largos de 2, 3 y 4 casillas.
-    -	Por cada casilla a la que se extienda el barco se representara en forma de coordenadas, las cuales son strings que se almacenaran dentro de una lista de coordenadas.
+    -	Por cada casilla a la que se extienda el barco se representara en forma de coordenadas, las cuales son strings que se almacenaran dentro de una lista de                     coordenadas.
     -	“Sunk” es la propiedad que define si el barco está hundido o no.
 
 Bomb:
